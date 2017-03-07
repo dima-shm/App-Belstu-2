@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_system1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView20"
+        android:layout_gravity="center_horizontal|bottom"
+        android:singleLine="true"
+        android:text="@string/by_Dima_Shumanski"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="222dp"
+        android:layout_height="357dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/gerb"
+        android:contentDescription="@string/splashscreen" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal|bottom" />
+
+</FrameLayout>

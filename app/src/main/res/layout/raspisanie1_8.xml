@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_system2">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4_1"
+        android:textColor="#ffffff"
+        android:background="#c800b3ea"
+        android:text="@string/kurs1"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4_2"
+        android:textColor="#ffffff"
+        android:background="#c800b3ea"
+        android:layout_marginTop="4dp"
+        android:text="@string/kurs2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4_3"
+        android:textColor="#ffffff"
+        android:background="#c800b3ea"
+        android:layout_marginTop="4dp"
+        android:text="@string/kurs3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4_4"
+        android:textColor="#ffffff"
+        android:background="#c800b3ea"
+        android:layout_marginTop="4dp"
+        android:text="@string/kurs4" />
+
+</LinearLayout>
+

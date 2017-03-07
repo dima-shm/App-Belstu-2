@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.user.belstu.MainActivity">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/View4"
+        android:src="@drawable/gerb"
+        android:contentDescription="@string/gerb"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button0_1"
+        android:layout_alignEnd="@+id/button0_1"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+
+    <Button
+        android:id="@+id/button0_1"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#c800b3ea"
+        android:text="@string/События"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/View4"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:id="@+id/button0_2"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/button0_1"
+        android:background="#c800b3ea"
+        android:text="@string/Факультеты"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button0_3"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/button0_2"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:background="#c800b3ea"
+        android:text="@string/Галерея"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button0_4"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/button0_3"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:background="#c800b3ea"
+        android:textColor="#ffffff"
+        android:text="@string/Расписание_занятий" />
+
+    <Button
+        android:id="@+id/button0_5"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#c800b3ea"
+        android:textColor="#ffffff"
+        android:text="@string/Контакты" />
+
+    <Button
+        android:id="@+id/button0_6"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:background="#c800b3ea"
+        android:textColor="#ffffff"
+        android:text="@string/Мы_на_карте"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+

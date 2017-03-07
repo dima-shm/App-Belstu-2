@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#008bcb"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/ONE"
+        android:id="@+id/button2_1"
+        android:singleLine="true"
+        android:allowUndo="false"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/TWO"
+        android:id="@+id/button2_2"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/THREE"
+        android:id="@+id/button2_3"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/FOUR"
+        android:id="@+id/button2_4"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:text="@string/FIVE"
+        android:id="@+id/button2_5"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:text="@string/SIX"
+        android:id="@+id/button2_6"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:text="@string/SEVEN"
+        android:id="@+id/button2_7"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:text="@string/EIGHT"
+        android:id="@+id/button2_8"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:text="@string/NINE"
+        android:id="@+id/button2_9"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:text="@string/TEN"
+        android:id="@+id/button2_10"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ffffff"
+        android:background="#00b3ea"
+        android:text="@string/ELEVEN"
+        android:id="@+id/button2_11"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
+
+</ScrollView>

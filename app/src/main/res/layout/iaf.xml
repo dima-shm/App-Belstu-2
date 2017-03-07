@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbars="none" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_system2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Факультет технологии органических веществ"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/data"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="32dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1968 г."
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/sost"
+            android:id="@+id/textView2"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="8 кафедр (общеобразовательные – 4; выпускающие – 4)
+
+Кафедра технологии нефтехимического синтеза и переработки полимерных материалов
+Кафедра химической переработки древесины
+Кафедра биотехнологии и биоэкологии
+Кафедра физико-химических методов сертификации продукции
+Кафедра органической химии
+Кафедра аналитической химии
+Кафедра безопасности жизнидеятельности
+Кафедра иностранных языков"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/prepod"
+            android:id="@+id/textView6"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="более 130, в том числе 1 член-корреспондент НАН Беларуси, 14  докторов наук и профессоров, 73 доцента и кандидата наук"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/stud"
+            android:id="@+id/textView8"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="порядка 1500 студентов, 20 магистрантов, 31 аспирант, и 4 соискателя"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/istor"
+            android:id="@+id/textView10"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Впервые подготовка специалистов профиля факультета была начата в 1960 г. по специальности 'Химическая технология древесины' в составе факультета механической технологии древесины.
+
+В 1961 г. одновременно с реорганизацией Белорусского лесотехнического института в технологический был создан химико-технологический факультет (ХТФ).
+
+
+
+Стремительное развитие факультета потребовало образования новых специальных и общеобразовательных кафедр.
+
+В 1964 г. созданы выпускающие кафедры: химической технологии древесины, технологии неорганических веществ, технологии переработки пластмасс. Одновременно происходила дальнейшая реорганизация общеобразовательных химических кафедр. Созданы кафедры органической химии, общей и неорганической химии, физической и коллоидной химии, аналитической химии.
+
+В 1965 г. была создана кафедра процессов и аппаратов химических производств, от которой в 1966 г. отделилась кафедра машин и аппаратов химических производств, затем создана кафедра технологии переработки нефти и газа.
+
+
+
+Таким образом, химико-технологический факультет в первые годы своего существования развивался очень быстро, и к 1968 г. на нем уже обучалось почти 2000 студентов. Поэтому в этом году факультет был разделен на факультет технологии органических веществ и факультет химической технологии и техники."
+            android:id="@+id/textView11"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/spec"
+            android:id="@+id/textView12"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="«Химическая технология органических веществ, материалов и изделий» (специализации: «Технология основного органического и нефтехимического синтеза», «Технология лакокрасочных материалов», «Технология пластических масс», «Технология переработки эластомеров», «Технология переработки пластических масс»).
+
+«Химическая технология переработки древесины» (специализации: «Технология целлюлозно-бумажных производств», «Технология древесных плит и пластиков», «Технология лесохимических производств» «Технология гидролизных и микробиологических производств»).
+
+«Биотехнология» (специализации: «Биотехнология энергоносителей», «Технология ферментов, витаминов и продуктов брожения», «Технология жиров, эфирных масел и парфюмерно-косметических продуктов»).
+
+«Технология лекарственных препаратов» (специализации: «Промышленная технология лекарственных препаратов», «Тонкий органический синтез»).
+
+«Биоэкология».
+
+«Физико-химические методы и приборы контроля качества продукции» (cпециализации: «Сертификация промышленных товаров», «Сертификация продовольственных товаров», «Сертификация фармацевтической продукции»)."
+            android:id="@+id/textView13"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/maig"
+            android:id="@+id/textView14"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1-33 80 01 Экология;
+1-38 80 06 Приборы и методы контроля природной среды, веществ, материалов и изделий материалов;
+1-48 80 03 Технология органических веществ;
+1-48 80 04 Технология и переработка полимеров и композитов;
+1-48 80 05 Химическая технология топлив и высокоэнергетических веществ;
+1-48 80 07 Технология и оборудование химической переработки биомассы дерева; химия древесины;
+1-48 80 08 Биотехнология;
+1-48 80 09 Технология жиров, эфирных масел и парфюмерно-косметических продуктов"
+            android:id="@+id/textView15"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/asp"
+            android:id="@+id/textView16"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="02. 00. 06 Высокомолекулярные соединения
+03. 02. 03 Микробиология
+03. 01. 06 Биотехнология  (в том числе бионанотехнологии)
+05. 11. 13 Приборы и методы контроля природной среды, веществ, материалов и изделий
+05. 16. 09 Материаловедение (по отраслям)
+05. 17. 04 Технология органических веществ
+05. 17. 06 Технология переработка полимеров и композитов
+05. 21. 03 Технология и оборудование химической переработки биомассы дерева; химия древесины"
+            android:id="@+id/textView17"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/napr"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Разработка научных основ синтеза высокомолекулярных химических соединений, технологий получения и переработки синтетических, природных и биополимерных материалов, фито- и ферментных препаратов, лекарственных средств и древесного сырья.
+Практическое применение физико-химических методов анализа свойств и контроля качества веществ и продукции химической, фармацевтической, пищевой и других отраслей промышленности.
+Новые методы получения, исследования и модифицирования наноструктурированных систем. Обеспечение промышленной безопасности."
+            android:id="@+id/textView19"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>
